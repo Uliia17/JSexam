@@ -1,0 +1,86 @@
+body {
+    background-color: #114266;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+.topField, .mainField {
+    margin-bottom: 20px;
+}
+.topField p, .mainField p {
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+.topForm, .mainForm {
+    display: flex;
+    align-items: center;
+}
+.topForm input[type="text"], .mainForm textarea {
+    width: 60%;
+    margin-right: 10px;
+}
+.topForm button {
+    margin-left: 10px;
+}
+.mainForm {
+    display: flex;
+    align-items: flex-start;
+}
+.mainForm textarea {
+    height: 250px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.buttons button {
+    margin-bottom: 10px;
+}
+#delete {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

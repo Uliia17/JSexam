@@ -1,0 +1,27 @@
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .container {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+    .topForm, .mainForm {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .topForm input[type="text"], .mainForm textarea, .topForm button, .buttons button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .topForm button {
+        margin-left: 0;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+

@@ -1,0 +1,40 @@
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+    .topForm, .mainForm {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .topForm input[type="text"], .mainForm textarea, .topForm button, .buttons button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .topForm button {
+        margin-left: 0;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-left: 0;
+    }
+    .buttons button {
+        width: 100%;
+    }
+    .topForm input[type="text"], .mainForm textarea {
+        box-sizing: border-box;
+    }
+    .buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .buttons button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
